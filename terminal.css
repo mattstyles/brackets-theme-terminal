@@ -1,0 +1,140 @@
+.cm-s-terminal.CodeMirror {
+	background-color: #181818;
+    color: #28FF1E;
+}
+
+.platform-mac .CodeMirror {
+    font-size: 14px !important;
+    line-height:19px !important;
+    font-family: "SourceCodePro-Semibold", "Monaco", monospace;
+}
+
+.CodeMirror div.CodeMirror-cursor {
+    border-left: 1px solid #28FF1E;
+    z-index: 3;
+}
+
+/**
+ * Gutter section
+ */
+.CodeMirror-gutters {
+    background-color: #272727;
+    border-right: 1px solid #373737;
+    color: red;
+}
+
+.CodeMirror-linenumbers {
+    padding-right: 4px;
+}
+
+.CodeMirror-linenumber {
+
+}
+
+/*
+.CodeMirror-vscrollbar {
+    background-color: #272727;
+    border-left: 1px solid #373737;
+}
+*/
+
+/**
+ * Status Bar
+ */
+#status-bar {
+    background-color: #272727;
+    border-top: 1px solid #373737;
+    color: #999;
+}
+
+#status-info {
+    background-color: #272727;
+}
+
+#status-indicators {
+    background-color: #272727;
+}
+
+/**
+ * Code folding
+ */
+.codefolding-expanded {
+    color: #999;
+    cursor: pointer;
+}
+.codefolding-collapsed {
+    color: #999;
+    cursor: pointer;
+}
+.CodeMirror-foldmarker {
+    background: #373737;
+    color: #373737;
+    border: 1px solid #525252;
+    padding-left: 14px;
+    padding-right: 0px;
+}
+.CodeMirror-foldmarker:before {
+    color: #999;
+    content: '…';
+}
+.CodeMirror-foldmarker:hover {
+    background: #585858;
+    color: #585858;
+    cursor: pointer;
+}
+
+/**
+ * Indent guides
+ */
+.cm-s-terminal .cm-lkcampbell-indent-guides::before {
+    height: 5.6ex;
+    background-color: #282828;
+}
+
+/**
+ * Highlighting
+ */
+.cm-s-terminal.CodeMirror .cm-matchhighlight {
+    color: #FFFFFF;
+}
+.cm-s-terminal.CodeMirror .CodeMirror-selectedtext {
+    background-color: #526DA5;
+    color: #FFFFFF;
+}
+.cm-s-terminal.CodeMirror .CodeMirror-selected {
+    background-color: #526DA5;
+    opacity: 1;
+    color: #FFFFFF;
+}
+.cm-s-terminal.CodeMirror-focused .CodeMirror-selected {
+
+}
+
+/* Ignore this -- it’s just for development */
+.test {
+    pink: #FFA0D4;          fuchsia: #FF238C;       red: #B40023;
+    cyan: #64C8FF;          blue: #4687FF;          back-blue: #526DA5;
+    green: #28FF1E;         dkgreen: #0FAF0A;       dkdkgreen: #0B500A;
+}
+
+/**
+ * Syntax Highlighting
+ */
+.cm-s-terminal .cm-keyword {color: #0FAF0A;}
+.cm-s-terminal .cm-atom {color: #28FF1E;}
+.cm-s-terminal .cm-number {color: #28FF1E;}
+.cm-s-terminal .cm-def {color: #28FF1E;}
+.cm-s-terminal .cm-variable {color: #28FF1E;}
+.cm-s-terminal .cm-variable-2 {color: #FF238C;}
+.cm-s-terminal .cm-property {color: #FFA0D4;}
+.cm-s-terminal .cm-operator {color: #FF238C;}
+.cm-s-terminal .cm-comment {color: #808080;}
+.cm-s-terminal .cm-string {color: #64C8FF;}
+.cm-s-terminal .cm-string-2 {color: #4687FF;}
+.cm-s-terminal .cm-meta {color: #B40023;}
+.cm-s-terminal .cm-qualifier {color: #28FF1E;}
+.cm-s-terminal .cm-bracket {color: #ff8822;}
+.cm-s-terminal .cm-tag {color: #0FAF0A;}
+.cm-s-terminal .cm-attribute {color: #FF238C;}
+
+.cm-s-terminal .cm-string.cm-property {color: #4687FF;}

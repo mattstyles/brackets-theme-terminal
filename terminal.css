@@ -3,7 +3,7 @@
     color: #28FF1E;
 }
 
-.platform-mac .CodeMirror {
+.terminal .CodeMirror {
     font-size: 14px !important;
     line-height:19px !important;
     font-family: "SourceCodePro-Semibold", "Monaco", monospace;
@@ -79,6 +79,14 @@
 }
 .CodeMirror-foldmarker:hover {
     background: #585858;
+    color: #585858;
+    cursor: pointer;
+}
+.CodeMirror-foldgutter-open:after {
+    color: #585858;
+    cursor: pointer;
+}
+.CodeMirror-foldgutter-folded:after {
     color: #585858;
     cursor: pointer;
 }
